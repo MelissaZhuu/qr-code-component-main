@@ -1,6 +1,6 @@
 # Frontend Mentor - QR code component solution
 
-This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H).
 
 ## Table of contents
 
@@ -67,7 +67,7 @@ I would like to continue to work on applying my HTML, CSS and JavaScript knowled
 
 ### Useful resources
 
-- [CSS Basics](https://web.dev/learn/css) - This is an amazing website that goes over all the CSS concepts which I used for a refresher.
+- [CSS Basics](https://web.dev/learn/css) - This website goes over all the CSS concepts which I used for a refresher.
 - [CSS Flexbox Cheat Sheet](https://yoksel.github.io/flex-cheatsheet/#section-display) - I found this amazing CSS flexbox cheat sheet that was really helpful. You can toggle the different flexbox properties and see how the items behave.
 
 ## Author
@@ -77,4 +77,4 @@ I would like to continue to work on applying my HTML, CSS and JavaScript knowled
 
 ## Acknowledgments
 
-I'm happy to have found Frontend Mentor, it's been a very helpful and unique resource for an aspiring web developer and is helping me crawl out of tutorial hell. I wish I found it sooner. Shoutout to the youtube tutorials that led me here though! 
+I'm happy to have found Frontend Mentor, it's been a very helpful and unique resource for an aspiring web developer and is helping me crawl out of tutorial hell.
