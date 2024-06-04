@@ -19,7 +19,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Screenshot
 
-![](./images/frontendmentor-qr-code-screenshot.png)
+![](./images/updated-qr-code-screenshot.png)
 
 ### Links
 
@@ -30,36 +30,19 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Built with
 
-- Semantic HTML5 markup
-- CSS custom properties
+- HTML5
+- CSS
 - Flexbox
 
 ### What I learned
 
-I learned how to translate a simple design from Figma to HTML and CSS. I improved my understanding of CSS flexbox and how to pair it with positioning. For example, here, I wanted to maintain flexbox's centering of the components, but also having the QR code be 16px from the top of the card:
+In my first attempt at this challenge, I focused on learning how to translate a simple design from Figma to HTML and CSS. I stuck with pixel units and only had the goal of understanding CSS flexbox more. In my original code, I paired flexbox with relative and absolute positioning to format elements how I wanted, and at the time, I thought it was a good solution. 
 
-```css
-.card {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-}
+However, after a couple days, I spent some time cleaning up my code and looking for ways to improve it. I knew that my final component didn't look or behave exactly as the design intended or as I wanted it to. For example, I realized that using absolute positioning and fixed pixel units made my component unresponsive, and adjusting the size of the browser made the text overlap the QR code. Therefore, I changed all the units to be responsive, and I found a way to format everything with only flexbox.
 
-.qr-code {
-    position: absolute;
-    top: 16px;
-}
-```
+I also fixed the attribution at the bottom, changing the font to match the card component, and fixed up the links so they would open the appropriate pages in a new tab.
 
-I also learned how to change box shadow opacity with rgba:
-
-```css
-.card {
-    box-shadow: 0px 25px 25px rgba(0,0,0,0.0477);
-}
-```
+Something interesting I came across while researching how to use em and rem units properly, was the "62.5 percent" technique. Normally, the base font-size is 16px, but this project uses 15px for the body text and 22px for the heading. This means that if I convert the em values based on the default 16px, I would get 1.375em (22px) and 0.9375em (15px). This long string of decimals didn't seem ideal at all. The 62.5 percent technique involves setting the base font-size to 10px(62.5% of 16px) instead, making the new em values 2.2em (22px) and 1.5em (15px), which looks much better!
 
 ### Continued development
 
@@ -69,6 +52,7 @@ I would like to continue to work on applying my HTML, CSS and JavaScript knowled
 
 - [CSS Basics](https://web.dev/learn/css) - This website goes over all the CSS concepts which I used for a refresher.
 - [CSS Flexbox Cheat Sheet](https://yoksel.github.io/flex-cheatsheet/#section-display) - I found this amazing CSS flexbox cheat sheet that was really helpful. You can toggle the different flexbox properties and see how the items behave.
+- [Using em vs. rem in CSS](https://blog.logrocket.com/using-em-vs-rem-css/) - This article goes over when to use em and rem and talks about the "62.5 percent" technique.
 
 ## Author
 
